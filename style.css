@@ -673,6 +673,7 @@ footer {
     text-align: center;
     line-height: 34px;
     font-weight: 800;
+    padding: 0px 10px;
   }
 
   .hero-para {
@@ -684,6 +685,8 @@ footer {
     margin: 20px 0px;
     font-weight: 300;
     font-size: 20px;
+    padding: 0px 17px;
+
     /* width: 91%; */
     /* margin: auto; */
     /* margin-top: 20px; */
@@ -776,6 +779,7 @@ footer {
     line-height: 24px;
     font-weight: 400 !important;
     margin: 18px 0px;
+    padding: 0px 25px;
   }
 
   /* Third Section (3 Boxes) */
@@ -980,7 +984,7 @@ footer {
 
   .fourth-sec .one-box {
     /* border: 2px solid darkmagenta; */
-    width: 60%;
+    width: 62%;
     font-size: 26px;
     color: black;
     font-weight: 500;
@@ -1003,7 +1007,7 @@ footer {
   /* Image Title  */
 
   .fourth-sec .first-box .title {
-    width: 100%;
+    width: 86%;
     order: 1;
     /* border: 1px solid blue; */
   }
@@ -1056,7 +1060,7 @@ footer {
 
   .fourth-sec .two-box {
     /* border: 2px solid darkmagenta; */
-    width: 60%;
+    width: 50%;
     font-size: 26px;
     color: black;
     font-weight: 500;
@@ -1067,7 +1071,7 @@ footer {
 
   .fourth-sec .second-box .title {
     /* border: 1px solid blue; */
-    width: 100%;
+    width: 75%;
     order: 1;
   }
 
@@ -1113,7 +1117,7 @@ footer {
   .fourth-sec .third-box .title {
     /* border: 1px solid blue; */
     order: 1;
-    width: 100%;
+    width: 92%;
   }
 
   /* Image Title - Cus Supp */
@@ -1138,6 +1142,7 @@ footer {
     /* border: 1px solid blue; */
     order: 2;
     width: 260px;
+    margin-bottom: 10px;
   }
 
   /* Image Description */
@@ -1149,7 +1154,7 @@ footer {
     width: 100%;
     line-height: 20px;
     order: 3;
-    margin: 10px 0px;
+    margin: 0;
     text-align: center;
   }
 
@@ -1157,7 +1162,8 @@ footer {
 
   .last-sec {
     /* border: 6px solid blue; */
-    padding: 50px 0px;
+    /* padding: 50px 0px; */
+    padding-top: 50px;
     background-color: #f9f9f9;
   }
 
@@ -1199,7 +1205,7 @@ footer {
     justify-content: space-between;
     height: 90px;
     margin: auto;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
   }
 
   .last-btns img {
@@ -1214,6 +1220,7 @@ footer {
   }
 
   .last-content .last-header {
+    font-size: 21px;
     line-height: 50px;
     text-align: center;
     font-weight: 400;
@@ -1229,10 +1236,15 @@ footer {
   }
 
   footer {
-    color: #8b8ba5;
-    padding: 0px 50px;
-    padding-bottom: 50px;
+    background-color: #f9f9f9;
+    color: #9e9da2;
     line-height: 18px;
+    width: 60%;
+    margin: auto;
+    padding: 20px 0;
+    margin-top: 10px;
+    /* padding: 0px 50px; */
+    /* padding-bottom: 50px; */
     /* border: 4px solid orange; */
   }
 }
