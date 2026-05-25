@@ -21,8 +21,10 @@ a {
 
 .navbar {
   width: 100%;
+  max-width: 1440px;
   height: 156px;
 
+  background-color: #353535;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -60,6 +62,10 @@ a {
   border: none;
   border-radius: 6px;
   padding: 10px 28px;
+}
+
+.navbar i {
+  display: none;
 }
 
 /* Hero Section Starts */
@@ -222,11 +228,6 @@ a {
   /* border: 1px solid black; */
 }
 
-.third-sec .box {
-  /* border: 1px solid blue; */
-  /* padding: 20px; */
-}
-
 .third-sec #box1 {
   margin-bottom: 46px;
 }
@@ -294,6 +295,10 @@ a {
 
 .center-box .mobile-img {
   width: 252px;
+}
+
+.tere-benefits-mdq .title-tere-benefits-mdq {
+  display: none;
 }
 
 /* Fourth Section Starts */
@@ -586,9 +591,647 @@ a {
 }
 
 footer {
+  background-color: white;
   color: #75bf7a;
-  font-weight: 200;
+  font-weight: 300;
+  font-size: 15px;
   text-align: center;
   align-items: center;
   padding: 30px 0px;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 20%;
+    /* border: 2px solid red; */
+    align-items: center;
+    padding: 15px;
+    padding: 0px 20px;
+    padding-bottom: 10px;
+    padding-top: 40px;
+  }
+
+  .nav-img {
+    width: 96px;
+    height: 27px;
+  }
+
+  .navbar i {
+    font-size: 25px;
+    font-weight: light;
+  }
+
+  .nav-items,
+  .nav-items a,
+  .nav-btn {
+    display: none;
+  }
+
+  /* Hero Section Starts */
+
+  .hero-section {
+    /* border: 1px solid blue; */
+    width: 100%;
+    padding: 0px 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-img {
+    /* border: 2px solid orange; */
+    order: -1;
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+    padding-top: 14px;
+  }
+
+  .header-img img {
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+
+  .header-txt {
+    /* border: 2px solid lime; */
+    width: 100%;
+    padding: 28px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-title {
+    /* border: 1px solid green; */
+    font-size: 32px;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 800;
+  }
+
+  .hero-para {
+    /* border: 1px solid red; */
+    color: #9e9da2;
+    width: 100%;
+    text-align: center;
+    line-height: 22px;
+    margin: 20px 0px;
+    font-weight: 300;
+    font-size: 20px;
+    /* width: 91%; */
+    /* margin: auto; */
+    /* margin-top: 20px; */
+  }
+
+  .hero-btn-img {
+    /* border: 2px solid gold; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    padding: 0px;
+    /* padding-bottom: 0px;
+    padding: 65px 0px;
+    padding-right: 0px; */
+    margin-top: 16px;
+  }
+
+  .hero-btn-img img {
+    width: 155px;
+  }
+
+  /* Drive Section */
+
+  .drive-container {
+    /* border: 2px solid black; */
+    padding: 0px 15px;
+  }
+  .drive-section {
+    /* border: 2px solid rgb(255, 0, 0); */
+    flex-direction: column;
+    width: 100%;
+    height: 255px;
+    padding: 18px 20px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    /* padding: 40px 60px; */
+    margin-top: 30px;
+  }
+
+  .drive-section p {
+    font-size: 26px;
+    width: 100%;
+    text-align: start;
+  }
+
+  .apply-to-drive {
+    /* border: 1px solid rgb(255, 0, 174); */
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    /* align-items: center; */
+    flex-direction: column;
+  }
+
+  .apply-to-drive input {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 18px;
+  }
+
+  .apply-to-drive .drive-btn {
+    /* width: 130px; */
+    /* height: 0px; */
+    font-size: 17px;
+    padding: 14px 0px;
+    font-weight: 700;
+    /* font-size: 17px; */
+  }
+
+  /* How Tere Works */
+
+  .second-sec {
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 0px;
+    padding: 50px 19px;
+    padding-bottom: 0px;
+  }
+
+  .tere-works h2 {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .tere-works p {
+    width: 100%;
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 400 !important;
+    margin: 18px 0px;
+  }
+
+  /* Third Section (3 Boxes) */
+
+  .third-sec {
+    /* border: 1px solid black; */
+    flex-direction: column;
+    padding: 20px 0px;
+  }
+
+  .center-box {
+    order: -1;
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+  }
+
+  .center-box .circle-img {
+    width: 315px;
+  }
+
+  .center-box .mobile-img {
+    width: 220px;
+  }
+
+  .tere-benefits-mdq {
+    /* border: 1px solid blue; */
+    order: -1;
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px auto;
+  }
+
+  .title-tere-benefits-mdq {
+    color: black;
+    font-size: 17px;
+    font-weight: 900;
+  }
+
+  .title-tere-benefits-mdq span {
+    color: #75bf7a;
+  }
+
+  .dots-mdq {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+    /* border: 1px solid green; */
+  }
+
+  .dots-mdq div {
+    width: 11px;
+    height: 11px;
+    border: none;
+    border-radius: 60%;
+  }
+
+  .dots-mdq .circle1 {
+    background-color: #75bf7a;
+  }
+
+  .dots-mdq .circle2 {
+    background-color: #75bf7aad;
+  }
+
+  .dots-mdq .circle3 {
+    background-color: #75bf7a76;
+  }
+
+  .dots-mdq .circle4 {
+    background-color: #75bf7a52;
+  }
+
+  .left-box,
+  .right-box {
+    width: 100%;
+    padding: 0;
+    display: contents;
+  }
+
+  .third-sec .box {
+    /* border: 1px solid red; */
+    text-align: center;
+  }
+
+  .third-sec .box img {
+    width: 62px;
+  }
+
+  .third-sec h3 {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 8px 0px;
+    margin-bottom: 15px;
+  }
+
+  .third-sec p {
+    font-size: 23px;
+    /* font-weight: light; */
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .third-sec #box1,
+  .third-sec #box2,
+  .third-sec #box3,
+  .third-sec #box4 {
+    margin-bottom: 20px;
+    padding: 20px 24px;
+  }
+
+  .third-sec #box1 {
+    order: 1;
+    width: 100%;
+  }
+
+  .third-sec #box3 {
+    order: 2;
+    width: 100%;
+  }
+
+  .third-sec #box2 {
+    order: 3;
+    width: 100%;
+  }
+
+  .third-sec #box4 {
+    order: 4;
+    width: 100%;
+  }
+
+  .tere-benefits-mdq .title-tere-benefits-mdq {
+    display: block;
+  }
+
+  /* 4rth Section Starts */
+
+  .fourth-sec {
+    /* border: 2px solid yellowgreen; */
+    height: 1600px;
+    margin-top: 15px;
+    padding: 20px 15px;
+  }
+
+  .fourth-sec .dots,
+  .fourth-sec .title-tere-benefits {
+    display: none;
+  }
+
+  .fourth-sec .title-tere-benefits-mdq {
+    display: block;
+  }
+
+  .fourth-sec .tere-benefits {
+    height: 0px;
+  }
+
+  /* Boxes */
+
+  /* 4rth Section: 1st, 2nd and 3rd Boxes */
+
+  .fourth-sec .first-box,
+  .fourth-sec .second-box,
+  .fourth-sec .third-box {
+    /* border: 1px solid purple; */
+    width: 100%;
+    border-radius: 5px;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    padding: 35px 25px;
+    align-items: center;
+  }
+
+  /* Image of 1st and 3rd Box */
+
+  .fourth-sec .first-box img,
+  .fourth-sec .third-box img {
+    /* border: 2px solid peru; */
+    width: 245px;
+    margin-right: 0px;
+    margin: 22px 0px;
+  }
+
+  .fourth-sec .first-box {
+    margin-top: 60px;
+  }
+
+  /* Org Image of 1 */
+
+  .fourth-sec #one {
+    font-size: 65px;
+    /* border: 2px solid black; */
+  }
+
+  /* Image Title - Flex hours */
+
+  .fourth-sec .one-box {
+    /* border: 2px solid darkmagenta; */
+    width: 60%;
+    font-size: 26px;
+    color: black;
+    font-weight: 500;
+    line-height: 25px;
+    /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+
+    /* width: 20px; */
+  }
+
+  /* Image Whole Text  */
+
+  .fourth-sec .first-box .text {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: contents;
+  }
+
+  /* Image Title  */
+
+  .fourth-sec .first-box .title {
+    width: 100%;
+    order: 1;
+    /* border: 1px solid blue; */
+  }
+
+  /* Clock Man Image */
+
+  .fourth-sec .first-box img {
+    order: 2;
+  }
+
+  /* Image Description */
+
+  .fourth-sec .first-box .text p {
+    /* border: 1px solid black; */
+    font-size: 18px;
+    width: 100%;
+    line-height: 18px;
+    order: 3;
+    margin: 15px 0px;
+    text-align: center;
+  }
+
+  /* Box 2 */
+
+  /* Image of 2nd Box */
+
+  .fourth-sec .second-box img {
+    /* border: 2px solid peru; */
+    width: 245px;
+    margin-right: 0px;
+    margin: 22px 0px;
+  }
+
+  /* Image Whole Text  */
+
+  .fourth-sec .second-box .text {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: contents;
+  }
+
+  /* Org Image of 2 */
+
+  .fourth-sec #two {
+    /* border: 2px solid black; */
+    font-size: 65px;
+  }
+
+  /* Image Title */
+
+  .fourth-sec .two-box {
+    /* border: 2px solid darkmagenta; */
+    width: 60%;
+    font-size: 26px;
+    color: black;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  /* Image Title  */
+
+  .fourth-sec .second-box .title {
+    /* border: 1px solid blue; */
+    width: 100%;
+    order: 1;
+  }
+
+  /* Coins Image */
+
+  .fourth-sec .second-box img {
+    order: 2;
+  }
+
+  /* Image Description */
+
+  .fourth-sec .second-box .text p {
+    /* border: 2px solid black; */
+    order: 3;
+    text-align: center;
+    font-size: 18px;
+    line-height: 17px;
+    margin-left: 0px;
+    padding: 0px 11px;
+    /* width: 100%; */
+  }
+
+  /* 3rd Box */
+
+  /* Image Whole Text  */
+
+  .fourth-sec .third-box .text {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: contents;
+  }
+
+  /* Org Image of 3 */
+  /* No: 03 */
+
+  .fourth-sec #three {
+    /* border: 2px solid black; */
+    font-size: 62px;
+  }
+
+  /* Image Title  */
+
+  .fourth-sec .third-box .title {
+    /* border: 1px solid blue; */
+    order: 1;
+    width: 100%;
+  }
+
+  /* Image Title - Cus Supp */
+
+  .fourth-sec .three-box {
+    /* border: 2px solid darkmagenta; */
+    width: 60%;
+    font-size: 26px;
+    color: black;
+    font-weight: 500;
+    line-height: 25px;
+    /*
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    */
+  }
+
+  /* Cus Sup Image */
+
+  .fourth-sec .third-box img {
+    /* border: 1px solid blue; */
+    order: 2;
+    width: 260px;
+  }
+
+  /* Image Description */
+
+  .fourth-sec .third-box .text p {
+    /* border: 1px solid black; */
+    order: 3;
+    font-size: 18px;
+    width: 100%;
+    line-height: 20px;
+    order: 3;
+    margin: 10px 0px;
+    text-align: center;
+  }
+
+  /* Last Section */
+
+  .last-sec {
+    /* border: 6px solid blue; */
+    padding: 50px 0px;
+    background-color: #f9f9f9;
+  }
+
+  /*  for desktop 
+  
+    .last-sec {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .last-container {
+    border: 4px solid red;
+    flex-direction: column;
+    border: none;
+    display: contents;
+    justify-content: space-between;
+  }
+
+  /* 1st - Tere Image */
+
+  .last-container .last-tere {
+    margin: auto;
+    margin-bottom: 35px;
+  }
+  .last-container .last-tere img {
+    width: 130px;
+    margin-left: 0px;
+    order: 1;
+  }
+
+  /* 2nd - Btns */
+
+  .last-btns {
+    order: 2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+    margin: auto;
+    margin-bottom: 35px;
+  }
+
+  .last-btns img {
+    width: 156px;
+    margin: 0px;
+  }
+
+  /* 3rd - Header */
+
+  .last-content {
+    order: 3;
+  }
+
+  .last-content .last-header {
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .last-content p {
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .last-content-2 {
+    display: none;
+  }
+
+  footer {
+    color: #8b8ba5;
+    padding: 0px 50px;
+    padding-bottom: 50px;
+    line-height: 18px;
+    /* border: 4px solid orange; */
+  }
 }
