@@ -665,11 +665,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 32px;
   }
 
   .hero-title {
     /* border: 1px solid green; */
-    font-size: 32px;
+    font-size: 188%;
     text-align: center;
     line-height: 34px;
     font-weight: 800;
@@ -682,7 +683,8 @@ footer {
     width: 100%;
     text-align: center;
     line-height: 22px;
-    margin: 20px 0px;
+    margin-top: 20px;
+    margin-bottom: 15px; 
     font-weight: 300;
     font-size: 20px;
     padding: 0px 17px;
@@ -706,7 +708,7 @@ footer {
   }
 
   .hero-btn-img img {
-    width: 155px;
+    width: 48%;
   }
 
   /* Drive Section */
@@ -779,7 +781,7 @@ footer {
     line-height: 24px;
     font-weight: 400 !important;
     margin: 18px 0px;
-    padding: 0px 25px;
+    padding: 0px 10px;
   }
 
   /* Third Section (3 Boxes) */
@@ -882,7 +884,7 @@ footer {
   }
 
   .third-sec p {
-    font-size: 23px;
+    font-size: 20px;
     /* font-weight: light; */
     font-weight: 400;
     line-height: 25px;
@@ -893,7 +895,7 @@ footer {
   .third-sec #box3,
   .third-sec #box4 {
     margin-bottom: 20px;
-    padding: 20px 24px;
+    padding: 20px 28px;
   }
 
   .third-sec #box1 {
@@ -955,7 +957,7 @@ footer {
     flex-direction: column;
     margin-left: 0px;
     margin-bottom: 20px;
-    padding: 35px 25px;
+    padding: 35px 12px;
     align-items: center;
   }
 
@@ -1091,6 +1093,7 @@ footer {
     line-height: 17px;
     margin-left: 0px;
     padding: 0px 11px;
+    margin-bottom: 12px;
     /* width: 100%; */
   }
 
@@ -1117,14 +1120,14 @@ footer {
   .fourth-sec .third-box .title {
     /* border: 1px solid blue; */
     order: 1;
-    width: 92%;
+    width: 88%;
   }
 
   /* Image Title - Cus Supp */
 
   .fourth-sec .three-box {
     /* border: 2px solid darkmagenta; */
-    width: 60%;
+    width: 58%;
     font-size: 26px;
     color: black;
     font-weight: 500;
@@ -1156,6 +1159,7 @@ footer {
     order: 3;
     margin: 0;
     text-align: center;
+    margin-bottom: 12px;
   }
 
   /* Last Section */
